@@ -1,0 +1,32 @@
+vile:
+  ignore:
+    - app/assets/images/**
+    - bin
+    - .brakeman.yml
+    - .bundle
+    - circle.yml
+    - coverage
+    - db
+    - Gemfile.lock
+    - .git
+    - .gitignore
+    - .keep
+    - log
+    - node_modules
+    - .rubocop.yml
+    - .sass-lint.yml
+    - tmp
+    - vendor
+    - .vile.yml
+    - yarn.lock
+
+coverage:
+  config:
+    path: coverage/lcov/vile-rails-circleci-demo.lcov
+
+# see: https://github.com/forthright/vile-rubycritic#ignoring-files
+rubycritic:
+  allow:
+    - app
+    - lib
+    - test
