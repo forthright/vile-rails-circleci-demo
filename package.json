@@ -1,11 +1,11 @@
 {
   "scripts": {
-    "vile": "vile p -usi -n"
+    "vile": "vile p -u -n"
   },
   "devDependencies": {
-    "npm-check-updates": "^2.11.1",
+    "npm-check-updates": "^2.11.2",
     "sass-lint": "github:brentlintner/sass-lint",
-    "vile": "^0.14.0",
+    "vile": "^0.15.0",
     "vile-brakeman": "^0.3.2",
     "vile-bundler-audit": "^0.3.4",
     "vile-bundler-outdated": "^0.1.2",
