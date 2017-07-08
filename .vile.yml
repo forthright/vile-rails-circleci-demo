@@ -14,7 +14,6 @@ vile:
     - log
     - node_modules
     - .rubocop.yml
-    - .sass-lint.yml
     - tmp
     - vendor
     - .vile.yml

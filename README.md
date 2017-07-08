@@ -12,4 +12,4 @@ See: [Continuous Analysis For Your Rails Project Using Vile and CircleCI](https:
     npm i
     rake db:migrate
     rake test
-    vile p
+    vile analyze

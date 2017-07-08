@@ -1,21 +1,20 @@
 {
   "scripts": {
-    "vile": "vile p -u -n"
+    "vile": "vile a -u -n"
   },
   "devDependencies": {
-    "npm-check-updates": "^2.11.2",
-    "sass-lint": "github:brentlintner/sass-lint",
-    "vile": "^0.15.0",
+    "npm-check-updates": "^2.12.1",
+    "vile": "^0.18.2",
     "vile-brakeman": "^0.3.2",
     "vile-bundler-audit": "^0.3.4",
     "vile-bundler-outdated": "^0.1.2",
-    "vile-coverage": "^0.2.15",
+    "vile-coverage": "^0.2.16",
     "vile-git": "^0.5.3",
     "vile-ncu": "^0.2.4",
     "vile-rails-best-practices": "^0.3.2",
     "vile-rubocop": "^0.2.2",
     "vile-rubycritic": "^0.2.3",
-    "vile-sass-lint": "^0.3.5",
-    "vile-stat": "0.0.15"
+    "vile-sass-lint": "^0.4.0",
+    "vile-stat": "0.1.0"
   }
 }
